@@ -13,15 +13,7 @@ import javax.persistence.*;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
-//cost
-//        shippingcharge
-//        customduty
-//        source
-//        destination
-//        pickupdate
-//        estimateddeliverydate
-//        actualdelivery
-//        deliverystatus
+
 @Entity
 @Table(name = "Inventory")
 @EntityListeners(AuditingEntityListener.class)
