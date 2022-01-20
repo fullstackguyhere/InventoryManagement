@@ -18,6 +18,8 @@
 ### Steps
 - Clone the project and navigate to it's classpath directory (/InverntoryManagement)
 - Update the MySQL url, username, password as per your system in the application.properties file (`spring.datasource.url, spring.datasource.username, spring.datasource.password=root`)
+- go to `/src/main/resources/`
+- open mysql in terminal and run this file `inventorydb-bootup.sql`
 - Open cmd in the given directory and run the following command
 ```sh
  mvn clean install
